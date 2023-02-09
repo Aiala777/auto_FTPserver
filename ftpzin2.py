@@ -11,8 +11,8 @@ today = datetime.now().strftime("%Y%m%d")
 hora = datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
 
 #nome do dominio e login:
-ftp = FTP('ftp.slisystem.com.br')
-ftp.login(user='Eficaz', passwd = 'EfiC@zVinte21')
+ftp = FTP('')
+ftp.login(user='', passwd = '')
 
 
 # movendo os arquivos tentando 4x
